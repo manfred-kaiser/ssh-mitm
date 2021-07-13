@@ -2,6 +2,7 @@
 name: SSH-MITM AppImage
 
 on:
+  workflow_dispatch
   push:
     tags:
       - '*.*.*'
