@@ -21,7 +21,7 @@ AppDir:
     # Set the python executable as entry point
     exec: usr/bin/python3
     # Set the application main script path as argument. Use '$@' to forward CLI parameters
-    exec_args: "${APPDIR}/usr/bin/ssh-mitm $@"
+    exec_args: ${APPDIR}/usr/bin/ssh-mitm $@
 
   apt:
     arch: amd64
