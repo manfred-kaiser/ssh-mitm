@@ -1,11 +1,7 @@
 
 name: SSH-MITM AppImage
 
-on:
-  workflow_dispatch
-  push:
-    tags:
-      - '*.*.*'
+on: workflow_dispatch
 
 jobs:
   build-appimage:
